@@ -47,12 +47,7 @@
     justify-content: center;
     margin-right: 10%;
     height: 100vh;
-    /* gap: 100px; */
 }
-
-/* .unorder-list{
-    display: flex;
-    flex-direction: column; */
 
 li{
     list-style: none;
@@ -80,7 +75,7 @@ li{
     align-items: center;
 }
 
-/* 3rd section */
+/* 4th section */
 .gradient {
     margin-left: 7%;
     margin-right: 7%;
@@ -94,6 +89,7 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
     /* align-items: center; */
 }
 
@@ -113,6 +109,37 @@ li{
     font-weight: bolder;
     color: #ff4a4a;
     width: 100px;
+}
+
+/* 3rd section */
+
+.experience-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.first-part{
+    margin-left: 7%;
+    border-left: 6px solid #ff12ff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 20px #c7c5c5;
+    width: 38%;
+    height: 40vh;
+    padding: 15px;
+}
+.second-part{
+    margin-right: 7%;
+    width: 38%;
+    border-left: 6px solid #ff1294;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 20px #cac7c7;
+    height: 40vh;
+    padding: 15px;
 }
 
 /* Footer */
