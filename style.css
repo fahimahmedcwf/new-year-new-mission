@@ -47,8 +47,12 @@
     justify-content: center;
     margin-right: 10%;
     height: 100vh;
-    gap: 100px;
+    /* gap: 100px; */
 }
+
+/* .unorder-list{
+    display: flex;
+    flex-direction: column; */
 
 li{
     list-style: none;
