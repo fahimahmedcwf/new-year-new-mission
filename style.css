@@ -70,7 +70,7 @@ li{
     display: flex;
     justify-content: center;
     gap: 160px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .single-plan {
@@ -117,9 +117,31 @@ li{
 
 /* Footer */
 .footer{
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: #212121;
     padding: 7%;
     display: flex;
+    justify-content: space-between;
     color: #d8d5d5;
+}
+
+input{
+    background: #212121;
+    border: 2px solid white;
+}
+
+.subcribe{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-button{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: #ff4a4a;
+    width: 100px;
 }
