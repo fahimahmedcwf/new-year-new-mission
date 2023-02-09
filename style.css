@@ -1,0 +1,121 @@
+/* Header Section */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("images/banner/banner1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-content {
+    margin-right: 10%;
+    text-align: end;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.font {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #f847a9;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* 1st Section */
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    height: 100vh;
+    gap: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+/* 2nd section */
+.center {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.second-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 50px;
+}
+
+.single-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 3rd section */
+.gradient {
+    margin-left: 7%;
+    margin-right: 7%;
+    background-size: cover;
+    height: 50vh;
+    background: linear-gradient(to right, #ea3f3f, #c0c0c2), url(images/watch.png);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.white{
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+}
+
+.call-button{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: #ff4a4a;
+    width: 100px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 50px;
+    background-color: #212121;
+    padding: 7%;
+    display: flex;
+    color: #d8d5d5;
+}
