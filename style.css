@@ -86,7 +86,7 @@ li{
     margin-right: 7%;
     background-size: cover;
     height: 50vh;
-    background: linear-gradient(to right, #ea3f3f, #c0c0c2), url(images/watch.png);
+    background: linear-gradient(to right, #ff7878, #c0c0c2), url(images/watch.png);
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
