@@ -79,10 +79,10 @@ li{
 .gradient {
     margin-left: 7%;
     margin-right: 7%;
-    background-size: cover;
     height: 50vh;
-    background: linear-gradient(to right, #ff7878, #c0c0c2), url(images/watch.png);
+    background: linear-gradient(90deg, #a80830 0%, #f5eff1c9 100%), url(images/watch.png);
     background-blend-mode: overlay;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
